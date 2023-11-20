@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <title>Strings and Sound</title>
+
+  <style>
+     .hero {
+      display: flexbox;
+      text-align: center;
+      color: white;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 60px;
+      left: 16px;
+      font-family: 'Sofia', sans-serif;
+      font-size: 20px;
+      color: brown;
+    }
+
+    .centered {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      font-family: 'Sofia', sans-serif;
+      transform: translate(-50%, -50%);
+      color: brown;
+    }
+
+    .hr {
+      border: 10px solid white;
+    }
+
+    .first {
+      background-color: antiquewhite;
+      color: brown;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+    }
+
+
+     ul {
+  overflow: hidden;
+  background-color:antiquewhite ;
+  padding: 0%;
+  margin: 0%;
+  }
+
+  li   {
+  float: left;
+  list-style-type: none;
+  background-color:antiquewhite;
+  }
+
+  li a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Sofia', sans-serif;
+  font-size: 15px;
+  }
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:brown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: brown;
+}
+
+
+.frm {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+  padding: 20px 500px;
+  font-family: 'Montserrat', sans-serif;
+  color: brown;
+  text-align: center;
+}
+
+
+.map {
+     padding-bottom: 25%;
+     position: relative;
+}
+
+.map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+  
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="one">
+  <ul>
+    <li><a class="active" href="">Home</a></li>
+    <li><a href="">Academics</a></li>
+    <li><a href="">Events</a></li>
+    <li><a href="">Contact Us</a></li>
+    <li><a href="">About Us</a></li>
+  </ul>
+</div>
+
+   <div class="hero">
+    <img src="M:\JAVASCRIPT2\website\landing\p.jpg" style="max-width: 100%;height: auto;">
+    <div class="top-left">𝄞 Strings & Sounds</div>
+    <div class="centered">
+      <h1>Join The Musical Journey With Us</h1>
+      <br>
+      <hr>
+      <h3>Become a Musician With Best Teachers</h3>
+    </div>
+
+  </div>
+  </div>
+  <div class="first">
+    <p style="padding-top: 20px;">OUR COURSES</p>
+    <p style="font-size: 20px;"></p>
+
+    <div class="row" style="padding: 100px 70px;">
+      <div class="card" style="width: 350px; height: 350px;">
+        <img class="card-img-top" src="M:\JAVASCRIPT2\website\landing\pt venk.jpg">
+         <div class="card-body" style=" background-color:antiquewhite; color:brown; ">
+          <h4 class="card-title">Vocals</h4>
+      </div>
+    </div>
+
+    <div class="card" style="width: 350px; height: 350px;margin: 0px 165px;">
+      <img class="card-img-top" src="M:\JAVASCRIPT2\website/landing/tbla.jpg" style="height: 350px;">
+       <div class="card-body" style=" background-color:antiquewhite; color:brown;">
+        <h4 class="card-title">Drums</h4>
+    </div>
+    </div>
+
+    <div class="card" style="width: 350px; height: 350px;">
+      <img class="card-img-top" src="M:\JAVASCRIPT2\website\landing\vna.jpg" style="height: 350px;">
+       <div class="card-body" style=" background-color:antiquewhite; color: brown; ">
+        <h4 class="card-title">Strings</h4>
+    </div>
+    </div>
+    </div>
+  </div>
+
+   
+    <div class="frm">
+      <h1>Contact Us</h1>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+       
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2083.752611031673!2d77.25167115190742!3d28.556541300474983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c8724363fd%3A0xfa2ce815f5d04084!2s102%2C%20opp.%20iskcon%20temple%20Wings%2C%20Amrit%20Puri%2C%20Block%20B%2C%20Sant%20Nagar%2C%20East%20of%20Kailash%2C%20New%20Delhi%2C%20Delhi%20110065!5e0!3m2!1sen!2sin!4v1700487177805!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+         <div class="btm" style="margin-left: 35%;">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+</body>
+
+</html>
